@@ -97,6 +97,7 @@ img {
 
 .content-inverse {
     background: #fa8072;  
+    background-image: url(../images/Tricksters-pointseul-site.png);
 }
 
 #description {
@@ -232,6 +233,26 @@ h3 { font-size: 28px; }
 
 h4 { font-size: 22px; }
 
+.pitch {
+    text-align: center;
+    color: #58c19d;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(../images/Tricksters-pointseul-site.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pitch:hover {
+    background-color: #191970;
+}
+
+.content-hover {
+    background-color: rgba(25,25,112,0.7);
+
+}
+
 /* ---------------------------------------------- /*
  * Countdown
 /* ---------------------------------------------- */
@@ -251,11 +272,13 @@ h4 { font-size: 22px; }
     padding: 0 5px;
     margin-bottom: 10px;
     font-size: 110px; 
+    text-shadow: #fa8072 1px 1px, #fa8072 -1px 1px, #fa8072 -1px -1px, #fa8072 1px -1px;
 }
 
 #countdown > div > i {
     font-style: normal;
     text-transform: uppercase;
+    text-shadow: #fa8072 1px 1px, #fa8072 -1px 1px, #fa8072 -1px -1px, #fa8072 1px -1px;
 }
 
 /* ---------------------------------------------- /*
