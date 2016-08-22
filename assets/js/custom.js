@@ -22,13 +22,15 @@
 
         // Background slideshow
         $.backstretch([
-            'assets/images/festival2.png', 
-            'assets/images/festival_outfits3.png', 
-            'assets/images/fifi-brindacier-fume.jpg'
+            'assets/images/IMG_0097.jpg_effected.jpg', 
+            'assets/images/IMG_0116.jpg', 
+            'assets/images/IMG_0127.jpg_effected.jpg',
+            'assets/images/IMG_0148.jpg',
+            'assets/images/IMG_0213.jpg_effected.jpg',
         ], {duration: 5000, fade: 750});
 
         // Countdown
-		$('#countdown').countdown('2017/04/15 14:00:00', function(event) {	// your date here 
+		$('#countdown').countdown('2016/10/15 14:00:00', function(event) {	// your date here 
         	$(this).html(event.strftime(''
             	+ '<div><div>%D</div><i>Days</i></div>' 
             	+ '<div><div>%H</div><i>Hours</i></div>'
